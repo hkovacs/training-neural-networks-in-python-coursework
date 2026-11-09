@@ -16,3 +16,7 @@ class Perceptron:
         """Run the perceptron. x is a python list with the input values."""
         x_sum = np.dot(np.append(x, self.bias), self.weights)
         return self.sigmoid(x_sum)
+
+    def set_weights(self, w_init):
+        """Set the weights. w_init is a python list with the weights."""
+        self.weights = np.array(w_init)
