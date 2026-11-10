@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# run from tld; python3 -m sandbox.test_perceptron_02_07
+# run from tld; python3 -m sandbox.test_perceptron_or
 
 from src.multilayer_perceptron import Perceptron
 
